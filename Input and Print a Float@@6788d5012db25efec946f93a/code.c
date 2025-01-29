@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
-    printf("enter a float value:");
+    int float=3.14;
+    printf("the float value is %f")
     return 0;
 }
