@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int d;
-    scanf("%d",&d);
-    if(d>!=0)
+    int a;
+    scanf("%d",&a);
+    if(a>!=0)
     printf("False");
     else
     printf("True");
