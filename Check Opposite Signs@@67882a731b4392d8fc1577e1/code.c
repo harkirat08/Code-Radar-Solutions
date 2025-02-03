@@ -5,7 +5,7 @@ int main(){
     if(r>=0 && t<0){
         printf("True");
     }
-    if(r<0 && t>=0){
+    elif(r<0 && t>=0){
         printf("True");
     }
     else{
