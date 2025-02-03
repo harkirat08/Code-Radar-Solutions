@@ -5,6 +5,9 @@ int main(){
     if(r>=0 && t<0){
         printf("True");
     }
+    if(r<0 && t>=0){
+        printf("True")
+    }
     else{
         printf("False");
     }
