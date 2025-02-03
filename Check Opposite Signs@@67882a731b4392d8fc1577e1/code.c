@@ -2,13 +2,13 @@
 int main(){
     int r,t;
     scanf("%d %d",&r,&t);
-    if(r>=0 && t<0){
+    #if(r>=0 && t<0){
         printf("True");
     }
     #elif(r<0 && t>=0){
         printf("True");
     }
-    else{
+    #else{
         printf("False");
     }
     return 0;
