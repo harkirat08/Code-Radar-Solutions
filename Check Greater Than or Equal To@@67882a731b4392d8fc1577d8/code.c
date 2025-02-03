@@ -2,9 +2,9 @@
 int main(){
     int j,g;
     scanf("%d %d",&j,&g);
-    if(a>b)
+    if(j>g)
     printf("True");
-    if(a=b)
+    if(j=g)
     printf("True");
     return 0;
 }
