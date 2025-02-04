@@ -2,9 +2,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a>0 && a<8){
-        if(a==1){
-            printf("Monday");}
+    if(a==1){
+        printf("Monday");
     }
     else if(a==2){
         printf("Tuesday");
@@ -21,8 +20,11 @@ int main(){
     else if(a==6){
         printf("Saturday");
     }
-    else{
+    else if(a==7){
         printf("Sunday");
+    }
+    else if(a<0 &&a>7){
+        printf("Invalid");
     }
     return 0;
 }
