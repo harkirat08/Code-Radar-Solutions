@@ -23,6 +23,7 @@ int main(){
             printf("%d",a/b);
             break;
         }
-        return 0;
+        
     }
+    return 0;
 }
