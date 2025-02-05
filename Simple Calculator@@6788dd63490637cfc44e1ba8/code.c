@@ -20,9 +20,9 @@ int main(){
             printf("error\n");
         }
         else{
-            printf("%d\n",a/b);
-            break;
+        printf("%d\n",a/b);
         }
+        break;
         default:
         printf("error\n");
         
