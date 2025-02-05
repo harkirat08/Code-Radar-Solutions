@@ -23,6 +23,8 @@ int main(){
             printf("%d\n",a/b);
             break;
         }
+        default:
+        printf("error\n");
         
     }
     return 0;
