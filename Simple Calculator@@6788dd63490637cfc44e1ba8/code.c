@@ -5,7 +5,7 @@ int main(){
     scanf("%d\n",&a);
     scanf("%d\n"&b);
     scanf("%c",&c);
-    switch (c){
+    switch(c){
         case '+':
         printf("%d\n",a+b);
         break;
@@ -17,7 +17,7 @@ int main(){
         break;
         case '/':
         if(b==0){
-            printf("error");
+            printf("error\n");
         }
         else{
             printf("%d\n",a/b);
