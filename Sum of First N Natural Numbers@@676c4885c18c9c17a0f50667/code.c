@@ -2,8 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    for(int s = n*(n+1)/2){
-        printf("%d",s);
-    }
+    int s = n*(n+1)/2);
+    printf("%d\n",s);
 return 0;
 }
